@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Microsoft Sans Serif", sans-serif;
+    background-image: url("../public/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+}
