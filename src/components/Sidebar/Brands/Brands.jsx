@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './brands.css'; // Assuming brands.css is in the same directory as this component
+import './brands.css';
 import { useDispatch } from 'react-redux';
 import { setBrandFilter, setSorting } from '../../../store/actions';
 import adidasLogo from './adidas.png';
@@ -44,7 +44,7 @@ const Brands = () => {
                                 onClick={() => handleBrand(brand.name)}
                                 className={` ${selectedBrand === brand.name ? 'selected' : ''}`}
                             >
-                                {<img src={brand.logo} className="brand-logo" />}
+                                {<img alt={'logo'} src={brand.logo} className="brand-logo" />}
                             </button>
                         ))}
                     </div>

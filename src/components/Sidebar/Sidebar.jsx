@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './sidebar.css'; // Assuming sidebar.css is in the same directory as this component
+import './sidebar.css';
 import Price from './Price/Price';
 import Color from './Color/Color';
 import Category from './Category/Category';

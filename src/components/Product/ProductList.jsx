@@ -47,7 +47,7 @@ const ProductList = () => {
 
     const filteredProducts = useMemo(
         () => filterProducts(data, searchQuery, categoryFilter, colorFilter, priceFilter, brandFilter),
-        [data, searchQuery, categoryFilter, colorFilter, priceFilter, brandFilter]
+        [searchQuery, categoryFilter, colorFilter, priceFilter, brandFilter]
     );
 
     const sortedProducts = useMemo(() => sortProducts(filteredProducts, sorting), [

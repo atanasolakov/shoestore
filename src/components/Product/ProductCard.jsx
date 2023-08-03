@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import {AddCard, Star} from '@mui/icons-material';
+import React, { useState } from 'react';
+import {AddCard } from '@mui/icons-material';
 import './productcard.css';
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../store/actions";
